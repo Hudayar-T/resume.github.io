@@ -48,7 +48,7 @@ body {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: #212529;
+  color: blue;
 }
 
 a:hover {
@@ -57,4 +57,15 @@ a:hover {
 
 .font-special {
   font-family: 'Dosis', sans-serif;
+}
+
+.custom_list {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+
+.justify:before {
+	content: "\2714\0020";
 }
